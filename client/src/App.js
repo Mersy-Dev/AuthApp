@@ -8,6 +8,7 @@ import Password from './components/Password';
 import Recovery from './components/Recovery';
 import Reset from './components/Reset';
 import PageNotFound from './components/PageNotFound';
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Route path='/recovery' element={<Recovery/>} />
         <Route path='/reset' element={<Reset/>} />              
         <Route path='/home' element={<Home/>} />
+        <Route path='/profile' element={<Profile/>} />
+
         <Route path='*' element={<PageNotFound/>} /> 
 
 
